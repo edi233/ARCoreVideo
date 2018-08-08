@@ -1,0 +1,72 @@
+{
+   materials: [
+      {
+         name: "Material__44",
+         parameters: [
+            {
+               baseColorFactor: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               baseColor: "earth_ball",
+            },
+            {
+               normal: null,
+            },
+            {
+               metallicFactor: 0,
+            },
+            {
+               roughnessFactor: 0.96994800000000003,
+            },
+            {
+               metallicRoughness: null,
+            },
+            {
+               occlusion: null,
+            },
+            {
+               emissiveFactor: [
+                  0,
+                  0,
+                  0,
+                  1,
+               ],
+            },
+            {
+               emissive: null,
+            },
+            {
+               reflectance: null,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/gltf_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "models/earth/earth_ball.gltf",
+      name: "earth_ball",
+      scale: 0.002292000000000001,
+   },
+   samplers: [
+      {
+         file: "models/earth/earth_ball.jpg",
+         name: "earth_ball",
+         pipeline_name: "earth_ball.jpg",
+      },
+   ],
+   version: "0.51:1",
+}
